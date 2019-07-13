@@ -18,6 +18,33 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: gainsboro;
+    border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
+
 .header-container {
     width: 100%;
     /* margin-top: 20px; */
@@ -40,6 +67,7 @@ body {
     width: 75%;
     height: 90%;
     overflow: auto;
+    scroll-behavior: smooth;
 }
 
 h1 {
@@ -71,19 +99,27 @@ h3 {
     text-decoration: underline white;
 }
 
+h4 {
+    font-size: 20px;
+    text-shadow: 2px 2px black, 2px 2px 2px black;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
 p {
     font-size: 20px;
     color: white;
     line-height: 2;
     font-weight: bolder;
     text-shadow: 2px 2px black, 2px 2px 2px black;
+    margin-right: 25px;
 }
 
-ul {
+.nav-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 25%;
+    width: 10%;
     height: 100%;
     position: fixed;
     overflow: auto;
@@ -91,9 +127,10 @@ ul {
 
 li a {
     display: block;
-    color: gainsboro;
+    color: white;
     padding: 8px 16px;
     text-decoration: none;
+    font-weight: bolder;
 }
 
 li a:hover {
@@ -123,7 +160,27 @@ li a:hover {
     box-shadow: 5px 5px 5px black;
 }
 
-h4 {
+.projects {
+    display: flex;
+}
+
+.details {
+    margin-left: 50px;
+    color: white;
+}
+
+.list {
+    color: white;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.list-2 {
+    width: 50%;
+}
+
+h5 {
     text-align: center;
     color: white;
     font-size: 20px;
