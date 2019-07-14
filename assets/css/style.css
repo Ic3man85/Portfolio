@@ -197,3 +197,42 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+@media (max-width: 768px) {
+    .projects {
+        display: block;
+    }
+    .details {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 640px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-container {
+        width: 100%;
+    }
+    .main-container {
+        width: 100%;
+        margin-left: 30px;
+    }
+    ul {
+        display: flex;
+        width: 0%;
+    }
+    /* .details {
+        display: flex;
+    } */
+    .list {
+        display: block;
+    }
+    h4 {
+        display: inline;
+    }
+    .info {
+        padding-bottom: 60px;
+    }
+}
