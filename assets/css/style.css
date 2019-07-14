@@ -6,12 +6,13 @@
 body,
 html {
     height: 100%;
+    position: fixed;
 }
 
 body {
     background-image: url("../images/luca-bravo-9l_326FISzk-unsplash.jpg");
-    position: fixed;
-    background-color: rgba(0, 0, 0.2);
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 1);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -170,8 +171,19 @@ li a {
     font-weight: bolder;
 }
 
-.list-2 {
+.list-2 a {
     width: 75%;
+}
+
+.icon {
+    box-shadow: 0px 0px 2px 2px white;
+    background-color: white;
+    border-radius: 15px;
+    opacity: .5;
+}
+
+.info {
+    padding-bottom: 25px;
 }
 
 h5 {
