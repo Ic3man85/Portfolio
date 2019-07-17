@@ -12,7 +12,7 @@
                 body {
                     background-image: url("../images/luca-bravo-9l_326FISzk-unsplash.jpg");
                     background-attachment: fixed;
-                    background-color: rgba(0, 0, 0, 1);
+                    /* background-color: rgba(0, 0, 0, 1); */
                     background-position: center;
                     background-size: cover;
                     background-repeat: no-repeat;
@@ -163,6 +163,7 @@
                     margin-top: 10px;
                     font-size: 15px;
                     font-weight: bolder;
+                    text-shadow: 2px 2px black, 2px 2px 2px black;
                 }
                 
                 .list-2 a {
