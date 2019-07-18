@@ -237,12 +237,12 @@
                 
                 @media only screen and (max-width: 480px) {
                     body {
-                        background: url("../images/luca-bravo-9l_326FISzk-unsplash.jpg") no-repeat 50% 0;
+                        background-image: url("../images/luca-bravo-9l_326FISzk-unsplash.jpg") no-repeat 50% 0;
                     }
                 }
                 
                 @media only screen and (max-width: 1024px) {
                     body {
-                        background: url("../images/luca-bravo-9l_326FISzk-unsplash.jpg") no-repeat 50% 0;
+                        background-image: url("../images/luca-bravo-9l_326FISzk-unsplash.jpg") no-repeat 50% 0;
                     }
                 }
