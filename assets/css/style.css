@@ -52,11 +52,13 @@
                 }
                 
                 .nav-container {
-                    width: 25%;
+                    width: 20%;
                 }
                 
                 .main-container {
                     margin-top: 25px;
+                    display: flex;
+                    flex-direction: column;
                     width: 75%;
                     height: 90%;
                     overflow: auto;
@@ -140,16 +142,21 @@
                     box-shadow: 5px 5px 5px black;
                 }
                 
+                .images {
+                    display: flex;
+                }
+                
                 #image2 {
                     width: 350px;
                     height: 250px;
-                    margin: 15px 0 15px 0;
+                    margin: 15px 30px 15px 0;
                     border: 2px solid black;
                     box-shadow: 5px 5px 5px black;
                 }
                 
                 .projects {
                     display: flex;
+                    flex-direction: column;
                     margin: 30px 0 30px 0;
                 }
                 
@@ -236,12 +243,6 @@
                 }
                 
                 @media only screen and (max-width: 480px) {
-                    body {
-                        background-image: url("../images/luca-bravo-9l_326FISzk-unsplash.jpg") no-repeat 50% 0;
-                    }
-                }
-                
-                @media only screen and (max-width: 1024px) {
                     body {
                         background-image: url("../images/luca-bravo-9l_326FISzk-unsplash.jpg") no-repeat 50% 0;
                     }
