@@ -7,7 +7,6 @@
      height: 100%;
      position: fixed;
      background-image: url("../images/background-image.jpg");
-     /* background-attachment: fixed; */
      background-position: center;
      background-size: 100% cover;
      background-repeat: no-repeat;
@@ -239,6 +238,6 @@
 
  @media only screen and (max-width: 480px) {
      body {
-         background-image: url("../images/background-image.jpg") no-repeat 50% 0;
+         background-image: url("../images/background-image-phone.jpg") no-repeat 50% 0;
      }
  }
