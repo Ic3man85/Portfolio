@@ -240,6 +240,7 @@
 
  @media only screen and (max-width: 480px) {
      body {
+         position: relative;
          background-image: url("../images/background-image.jpg") no-repeat 50% 0;
      }
  }
