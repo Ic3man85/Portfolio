@@ -7,7 +7,7 @@
      height: 100%;
      position: fixed;
      background-image: url("../images/background-image.jpg");
-     background-attachment: fixed;
+     /* background-attachment: fixed; */
      background-position: center;
      background-size: 100% cover;
      background-repeat: no-repeat;
@@ -34,7 +34,6 @@
 
  .header-container {
      width: 100%;
-     /* margin-top: 20px; */
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -240,7 +239,6 @@
 
  @media only screen and (max-width: 480px) {
      body {
-         position: relative;
          background-image: url("../images/background-image.jpg") no-repeat 50% 0;
      }
  }
