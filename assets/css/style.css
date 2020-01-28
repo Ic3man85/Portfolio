@@ -13,7 +13,8 @@ html {
 }
 
 hr {
-  background-color: black;
+  border-style: solid;
+  border-color: red; /* or whatever */
 }
 
 ::-webkit-scrollbar {
